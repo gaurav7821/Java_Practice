@@ -1,3 +1,4 @@
+// WAP to calculate a bill discount
 import java.util.Scanner;
 public class bill {
     public static void main(String[] args) {
