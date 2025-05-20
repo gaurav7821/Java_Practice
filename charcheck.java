@@ -1,4 +1,4 @@
-//Accept three numbers from the user and find the largest among them.
+//Check  the character is vowel or  consonant.
 import java.util.Scanner;
 public class charcheck {
 
