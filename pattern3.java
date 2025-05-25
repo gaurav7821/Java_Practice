@@ -13,7 +13,7 @@ public class pattern3 {
                 System.out.print("*");
             }
             for(int b=i ; b<=5 ; b++){
-                System.err.print("*");
+                System.out.print("*");
             }
             System.out.println();
         }
