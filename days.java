@@ -34,6 +34,7 @@ public class days {
             default: System.out.println("Please enter valid days");
                 break;
         }
+        sc.close();
     }
     
 }
