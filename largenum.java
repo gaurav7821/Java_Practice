@@ -12,12 +12,16 @@ public class largenum {
         System.out.println("Enter third num: ");
         int num3 = sc.nextInt();
 
-        if(num1 >= num2 && num1 >= num3){
-            System.out.println(num1 + " Is larger num");
-        }else if(num2 >= num1 && num2 >= num3){
-            System.out.println(num2 + " Is larger num");
-        }else{
-            System.out.println(num3 + " Is larger num");
-        }
+        // if(num1 >= num2 && num1 >= num3){
+        //     System.out.println(num1 + " Is larger num");
+        // }else if(num2 >= num1 && num2 >= num3){
+        //     System.out.println(num2 + " Is larger num");
+        // }else{
+        //     System.out.println(num3 + " Is larger num");
+        // }
+
+        int max = num1 > num2 ? num1 > num3 ? num1: num3 : num2 > num3 ? num2 : num3 ;
+
+        System.out.println(max);
     }
 }
